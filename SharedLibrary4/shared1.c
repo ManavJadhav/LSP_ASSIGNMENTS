@@ -8,7 +8,7 @@ void sharedHelper(int iNo)
     void *ptr = NULL;
     void (*fptr)(int);
 
-    ptr = dlopen("/home/vedant/LSPAssignments/Assignment7/4/factlib.so",RTLD_LAZY);   // RunTime LoaD
+    ptr = dlopen("/home/maddy/Desktop/LSP_ASSIGNMENTS/ASS_7/4/factlib.so",RTLD_LAZY);   // RunTime LoaD
     if(ptr==NULL)
     {
         printf("Unable to load library\n");

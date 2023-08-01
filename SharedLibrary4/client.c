@@ -14,7 +14,7 @@ int main(int argc, char*argv[])
     printf("Enter the number of which you want factorial of :\n");
     scanf("%d",&iValue);
 
-    ptrfinal = dlopen("/home/vedant/LSPAssignments/Assignment7/4/sharedlib.so",RTLD_LAZY);   // RunTime LoaD
+    ptrfinal = dlopen("/home/maddy/Desktop/LSP_ASSIGNMENTS/ASS_7/4/sharedlib.so",RTLD_LAZY);   // RunTime LoaD
     if(ptrfinal==NULL)
     {
         printf("Unable to load library\n");
